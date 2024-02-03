@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/rounded_coner"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/courseOutput"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        tools:text="Course Info" />
+
+
+    <TextView
+        android:id="@+id/professorOutput"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_below="@id/courseOutput"
+        tools:text="Professor" />
+
+    <TextView
+        android:id="@+id/noteOutput"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/professorOutput"
+        android:textColor="@color/textColor"
+        tools:text="Note" />
+
+    <TextView
+        android:id="@+id/timeOutput"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noteOutput"
+        android:textColor="#858484"
+        android:textSize="10dp"
+        android:gravity="end"
+        tools:text="02/01/2024" />
+</RelativeLayout>

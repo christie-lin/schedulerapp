@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/table"
+    android:filterTouchesWhenObscured="false"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".InfoClassActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="371dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:text="Add your new class information"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_coner"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/course"
+            android:layout_width="382dp"
+            android:layout_height="58dp"
+            android:layout_margin="10sp"
+            android:background="@color/white"
+            android:hint="Course name"
+            android:padding="10sp" />
+
+        <EditText
+            android:id="@+id/professor"
+            android:layout_width="382dp"
+            android:layout_height="55dp"
+            android:layout_margin="10sp"
+            android:background="@color/white"
+            android:hint="Professor"
+            android:padding="10sp" />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="382dp"
+            android:layout_height="47dp"
+            android:layout_margin="10sp"
+            android:background="@color/white"
+            android:hint="Time"
+            android:padding="10sp" />
+
+        <EditText
+            android:id="@+id/note"
+            android:layout_width="382dp"
+            android:layout_height="189dp"
+            android:layout_margin="10sp"
+            android:background="@color/white"
+            android:gravity="top"
+            android:hint="Note"
+            android:lines="50"
+            android:padding="10sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/saveButton"
+            android:text="SAVE"
+            android:backgroundTint="@color/button"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+</LinearLayout>

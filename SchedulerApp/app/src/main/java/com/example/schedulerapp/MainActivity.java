@@ -1,4 +1,4 @@
-package com.example.scheduleapp;
+package com.example.schedulerapp;
 
 import android.content.Intent;
 import android.os.Bundle;
